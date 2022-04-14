@@ -83,19 +83,19 @@ async def on_message(message):
     await client.process_commands(message)
 
     # Bot reacts to messages.
-    await reaction(message)
+    await react(message)
 
     # Bot responds to users.
     await respond_to_user(message)
 
 
 # Bot reacts or responds to various triggers.
-async def reaction(message):
+async def react(message):
     if contains_phrase(message, strings.react_triggers):
-        await react(message, random.choice(strings.reacts))
+        await add_react(message, random.choice(strings.reacts))
 
     if message.author.display_name == "Karl The Seagull":
-        await react(message, random.choice(['👀', '💗', '♥️', '😍', '💙']))
+        await add_react(message, random.choice(['👀', '💗', '♥️', '😍', '💙']))
 
 
 # Bot responds to user.

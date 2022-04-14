@@ -8,8 +8,8 @@ import random
 
 
 # Receives a message object and a reaction and instructs the bot to react to that message.
-async def react(message, react):
-    message.add_reaction(react)
+async def add_react(message, react):
+    await message.add_reaction(react)
 
 
 # Receives a message object and sends a response (after checking various parameters).
