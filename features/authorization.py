@@ -76,14 +76,14 @@ async def authorize_user(user):
 # Returns a string list of all the bot's commands.
 def get_commands(admin):
     command_list = f"==OLIVA BOT COMMANDS ==\n\n" \
-                   f"Ping Oliva with `Olivia ping`\n" \
-                   f"List commands with `Olivia commands`\n\n" \
-                   f"Get a seagull picture with `Olivia insta`\n\n" \
+                   f"Ping Olivia with `Olivia ping`\n" \
+                   f"List commands with `Olivia commands`\n" \
+                   f"Get a seagull picture with `Olivia insta`\n" \
                    f"Hear a seagull sound with `Olivia talk`\n\n" \
                    f"**Conversation Triggers**:\n" \
                    f"Hi / Hello / Hey Olivia.\n" \
                    f"Thanks / Thank you Olivia.\n" \
-                   f"Sorry/ My bad Olivia. \n\n"
+                   f"Sorry/ My bad Olivia."
 
     unimplemented_features = f"Get a random OFMD screencap with `Olivia screencap`\n\n" \
                              f"Get a fanfic rec with `Olivia fic`\n\n" \
