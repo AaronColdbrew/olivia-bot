@@ -43,7 +43,7 @@ async def ping(ctx):
 # Reboots the bot - only can be done by administrator or developer.
 @client.command()
 async def reboot(ctx):
-    await reboot(ctx, bot_key)
+    await restart(ctx, bot_key)
 
 
 # Command to list all commands/bring up help menu.

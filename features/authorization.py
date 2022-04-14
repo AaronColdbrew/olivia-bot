@@ -14,7 +14,7 @@ ART_CHAT_ID = int(open("id/art_channel_id.txt", "r").readline())
 
 
 # Reboots a given bot when prompted by an authorized user.
-async def reboot(ctx, bot='Olivia'):
+async def restart(ctx, bot='Olivia'):
     bot = bot.capitalize()
     if await authorize_user(ctx.message.author):
         print(f"{ctx.message.author} rebooted {bot}.")
