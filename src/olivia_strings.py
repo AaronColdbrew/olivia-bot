@@ -10,7 +10,7 @@ watching = cycle(
     ['Buttons moonbathe', 'the sea', 'the waves',
      'Karl balance on Buttons', 'the moon', 'out for enemies'])
 playing = cycle(
-    ['with someting shiny', 'cards with Buttons'])
+    ['with something shiny', 'cards w/ Buttons', 'hide-n-seek w/ Buttons'])
 listening = cycle(
     ['to the waves', 'pirate shanties', 'the song of revenge', 'Frenchie sing', 'Karl',
      'Stede and Ed \'flirt\''])
