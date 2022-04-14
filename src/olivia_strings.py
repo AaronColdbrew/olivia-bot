@@ -12,8 +12,8 @@ watching = cycle(
 playing = cycle(
     ['with something shiny', 'cards w/ Buttons', 'hide-n-seek w/ Buttons'])
 listening = cycle(
-    ['to the waves', 'pirate shanties', 'the song of revenge', 'Frenchie sing', 'Karl',
-     'Stede and Ed \'flirt\''])
+    ['the waves', 'pirate shanties', 'the sounds of revenge', 'Frenchie sing', 'Karl',
+     'Stede making speech'])
 
 # Responsiveness
 
